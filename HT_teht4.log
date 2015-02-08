@@ -1,0 +1,65 @@
+Circuit: * C:\Users\J-Devil\Documents\Koulujutut\Elektroniikkan_perusteet\HT_teht4.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u3:4      d:u3:1      d:u2:4      d:u2:1      d:u1:4
+Model:    u3:di       u3:x        u2:di       u2:x        u1:di
+Id:      9.14e-21    9.07e-21   -5.04e-15   -1.25e-14    8.46e-18
+Vd:      9.13e-12    4.53e-09   -5.03e-06   -6.25e-03    8.45e-09
+Req:     1.00e-09    1.00e-12    1.00e-09    1.00e-12    1.00e-09
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:1
+Model:    u1:x
+Id:      1.25e-14
+Vd:      6.25e-03
+Req:     1.00e-12
+CAP:     0.00e+00
+
+                        --- VDMOSFET Transistors ---
+Name:        m:u3:2      m:u3:1      m:u2:2      m:u2:1      m:u1:2
+Model:        u3:p        u3:n        u2:p        u2:n        u1:p
+Id:         -2.25e-03    2.25e-03   -2.16e-03    2.34e-03   -2.34e-03
+Vgs:        -4.54e-09   -4.54e-09    6.25e-03    6.25e-03   -6.25e-03
+Vds:        -1.50e+01    1.50e+01   -1.87e+01    1.13e+01   -1.50e+01
+Vth:         3.00e-01   -3.00e-01    3.00e-01   -3.00e-01    3.00e-01
+Gm:          1.50e-02    1.50e-02    1.47e-02    1.53e-02    1.53e-02
+Gds:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbody:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:        m:u1:1
+Model:        u1:n
+Id:          2.16e-03
+Vgs:        -6.25e-03
+Vds:         1.50e+01
+Vth:        -3.00e-01
+Gm:          1.47e-02
+Gds:         0.00e+00
+Cgs:         0.00e+00
+Cgd:         0.00e+00
+Cbody:       0.00e+00
+
+
+
+Date: Sun Feb 08 23:36:46 2015
+Total elapsed time: 0.740 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 1319
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 23
+fillins = 17
+solver = Normal
+Thread vector: 21.8/17.0[2] 0.0/0.0[0] 3.8/2.6[2] 0.3/2.2[1]  2592/500
+Matrix Compiler1: 2,23 KB object code size
+Matrix Compiler2: off  [0.8]/1.2/1.2
+
+
