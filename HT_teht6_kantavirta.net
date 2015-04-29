@@ -1,0 +1,11 @@
+* C:\Users\J-Devil\Documents\GitHub\Elektroniikan_perusteet\HT_teht6_kantavirta.asc
+Q1 N001 N002 0 0 2N2222
+V1 N001 0 28
+I1 0 N002 1
+.model NPN NPN
+.model PNP PNP
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.bjt
+.dc V1 0 15 0.01 I1 0 14m 2m
+* Mitoitettiin kytkinkäytön kantavirta.\nOhjaus CPU 5V/0V\nKuorma Motor DC 28V/0,5A (L=0.6mH)\nKytkin 2N2222\n \nOminaiskäyrältä valittiin kantavirraksi\n10mA => Pc = Uce x Ic=406.284mV x 0,5 =203mW
+.backanno
+.end

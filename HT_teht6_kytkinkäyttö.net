@@ -1,0 +1,18 @@
+* C:\Users\J-Devil\Documents\GitHub\Elektroniikan_perusteet\HT_teht6_kytkinkäyttö.asc
+Q1 N003 N005 0 0 2N2222
+Rb N004 N005 430
+R2 N001 N002 56
+L1 N002 N003 0.6m
+V1 N001 0 28
+V§CPU N004 0 PULSE(0 5 0 1n 1n 2m 4m)
+D1 N003 N001 1N5817
+.model D D
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.bjt
+.tran 20m
+* Kantavastuksen mitoitus:\nominaiskäyrältä Ib=10mA\nRb = (5V-0,7V) / 10mA = 430 ohmia.\n \nIlman vapaakäyntidiodia kytkin ei toimi.\nSe tuhoutuu välittömästi isoon jännitepiikkiin.
+* R2 ja L1 mallintavat moottoria.\nR2 = 28V/0,5A = 56 ohmia.
+.backanno
+.end
